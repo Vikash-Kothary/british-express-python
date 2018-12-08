@@ -14,7 +14,7 @@ env:
 
 run:
 	@echo 'Install libary'
-	python3 british_express/run.py
+	ipython british_express/run.py
 
 tests:
 	@echo 'Run tests'
