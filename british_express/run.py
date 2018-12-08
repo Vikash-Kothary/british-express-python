@@ -3,9 +3,12 @@
 main.py - Run the complete application
 """
 
-from app import app
+from app import create_app
+from db import create_db
 from views import views
 
+app = create_app()
+db = create_db()
 app.register_blueprint(views)
 
 
