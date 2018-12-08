@@ -75,9 +75,9 @@ All notable changes are documented in [CHANGELOG.md](CHANGELOG.md). For past ava
 
 ## Authors
 **Vikash Kothary** -- Developer -- [@VikashKothary](https://github.com/VikashKothary)
-**Vikash Kothary** -- Developer -- [@VikashKothary](https://github.com/VikashKothary)
+**Tejan Shah** -- Data Scientist -- [@Tej780s](https://github.com/Tej780)
 **Dominik Cydzik** -- Developer -- [@dom_cyd](https://github.com/domin00)
-**Vikash Kothary** -- Developer -- [@VikashKothary](https://github.com/VikashKothary)
+**Vikash Kothary** -- Developer -- []()
 
 ### Acknowledgements
 **Vikash Kothary** -- Developer -- [@VikashKothary](https://github.com/VikashKothary)
