@@ -1,7 +1,7 @@
 pip>=18.0
 
 simplejson==3.16.0
-python-dotenv==0.1.0
+flask
 
 # Testing Requirements
 pytest==3.9.1

@@ -12,10 +12,10 @@
 - [ ] Makefile
 
 ## Minimum Viable Product v0.0.0
-> Improve outreach of posts
 
 ### Models
-
+- [ ] Pictures
+- [ ] User
 
 ### Frontend
 - [ ] Static buttons

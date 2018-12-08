@@ -1,4 +1,4 @@
-.PHONY: requirements env build install tests examples clean-pyc clean-build
+.PHONY: requirements env install tests examples clean-pyc clean-build
 
 requirements:
 	@echo 'Install python3 requirements into a linux machine'
@@ -12,13 +12,9 @@ env:
 	.venv/bin/pip3 install -r requirements.txt
 	#source .venv/bin/activate
 
-build:
-	@echo 'Build library'
-	python3 setup.py build
-
-install: build
+run:
 	@echo 'Install libary'
-	python3 setup.py install
+	python3 british_express/run.py
 
 tests:
 	@echo 'Run tests'

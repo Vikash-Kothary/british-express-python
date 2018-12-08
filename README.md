@@ -59,7 +59,6 @@ Run in the terminal: `$ make debug`
 
 Please follow our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) and read the [Code Style Guidelines]().
 
-
 ## Changelog
 All notable changes are documented in [CHANGELOG.md](CHANGELOG.md). For past available versions, see the [tags on this repository](https://github.com/VikashKothary/british-express-python/tags).
 
