@@ -3,5 +3,10 @@
 constants.py - Constant variables
 """
 
-GOOGLE_SHEETS = 'https://spreadsheets.google.com/feeds'
-GOOGLE_DRIVE = 'https://www.googleapis.com/auth/drive'
+
+class Constants(object):
+    """
+    """
+    # DB
+    GOOGLE_SHEETS = 'https://spreadsheets.google.com/feeds'
+    GOOGLE_DRIVE = 'https://www.googleapis.com/auth/drive'

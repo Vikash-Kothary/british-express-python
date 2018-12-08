@@ -9,7 +9,7 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 from googleapiclient.discovery import build
 
-from constants import GOOGLE_SHEETS, GOOGLE_DRIVE
+from constants import Constants
 import utils
 
 
@@ -34,7 +34,7 @@ class GoogleSheetsDB(object):
     def login(self):
         """
         """
-        scope = [GOOGLE_SHEETS, GOOGLE_DRIVE]
+        scope = [Constants.GOOGLE_SHEETS, Constants.GOOGLE_DRIVE]
         path = utils.find_file('client_secret.json')
         creds = ServiceAccountCredentials.from_json_keyfile_name(path, scope)
         self.client = gspread.authorize(creds)
