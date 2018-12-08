@@ -1,0 +1,12 @@
+pip>=18.0
+
+simplejson==3.16.0
+python-dotenv==0.1.0
+
+# Testing Requirements
+pytest==3.9.1
+vcrpy==2.0.1
+flake8==3.6.0
+
+# Example Requirements
+jupyter==1.0.0
