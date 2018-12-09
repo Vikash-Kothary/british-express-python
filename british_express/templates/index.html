@@ -1,43 +1,69 @@
 <!DOCTYPE html>
 <html>
-<body style="background-color:DodgerBlue;">
-
-<script>
-function randomN() {
-    min = 1;
-    max = 10;
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-</script>
+<body style="background-color:DodgerBlue;" >
 
 <div align="center">
-<header>
-<h1>{{ title }}</h1>
-</header>
+  <header style='background-color:Gray;'>
+  <h1>
+    <img src='./200.gif' alt='Thumbs up Kid' style='width:100px;height:70px;'>
+    <img src='./200.gif' alt='Thumbs up Kid' style='width:100px;height:70px;'>
+    {{ title }}
+    <img src='./200.gif' alt='Thumbs up Kid' style='width:100px;height:70px;'>
+    <img src='./200.gif' alt='Thumbs up Kid' style='width:100px;height:70px;'>
+  </h1>
+  <p>
+    {{ title2 }}
+  </p>
+  </header>
 </div>
 
 <div align="center">
-<img src="insert pic source" alt="Trulli" width="500" height="333">
+<img src="" id="img" width="500" height="333">
 </div>
 
 <div align="center">
 <p1>
 <button style="background-color:LightGray;" type="button"
-onclick="document.getElementById('demo').innerHTML = 'previous image' ">
+onclick="PreviousPic();">
 Click me for previous Image.</button>
 
 <button style="background-color:LightGray;" type="button"
-onclick="document.getElementById('demo').innerHTML = randomN() ">
+onclick="NextPic();">
 Click me for next Image.</button>
 
 <button style="background-color:LightGray;" type="button"
-onclick="document.getElementById('demo').innerHTML = 'extra button clicked'">
+onclick="document.getElementById('img').src='./yahoo.jpg'">
 Extra button.
 </button>
 </p1>
 </div>
 
-<p id="demo"></p>
+<script>
+  window.index = 0
+  function readIndex(){
+      var index = 0;
+  }
+
+function renderImg(n){
+  document.getElementById("img").src='{{ img1[n] }}';
+}
+function NextPic(){
+        window.index = window.index + 1;
+        renderImg(window.index);
+        console.log(window.index);
+        }
+function PreviousPic(){
+        window.index = window.index - 1;
+        renderImg(window.index);
+        console.log(window.index);
+        }
+
+// function randomN() {
+//     min = 1;
+//     max = 10;
+//     return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+</script>
 
 </body>
 </html>
